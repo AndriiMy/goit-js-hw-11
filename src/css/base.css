@@ -4,5 +4,5 @@ body { margin: 0; font-family: Montserrat, Arial, sans-serif; color: #2e2f42; ba
 .form { display: flex; justify-content: center; gap: 8px; margin-bottom: 32px; }
 .form input { width: 272px; max-width: 60vw; padding: 8px 16px; border: 1px solid #808080; border-radius: 4px; font: inherit; min-height: 40px; outline: none; }
 .form input:focus { border-color: #4e75ff; }
-.form button { padding: 8px 16px; min-height: 40px; border: 0; border-radius: 8px; background: #4e75ff; color: white; font: 500 16px/1.5 inherit; cursor: pointer; }
+.form button { padding: 8px 16px; min-height: 40px; border: 0; border-radius: 8px; background: #4e75ff; color: white; font-family: inherit; font-weight: 500; font-size: 16px; line-height: 1.5; cursor: pointer; }
 .form button:hover { background: #6c8cff; }
