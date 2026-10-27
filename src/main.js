@@ -11,10 +11,11 @@ form.addEventListener('submit', event => {
   event.preventDefault();
   const query = form.elements['search-text'].value.trim();
 
+  const requestId = ++currentRequest;
   clearGallery();
+  hideLoader();
   if (!query) return;
 
-  const requestId = ++currentRequest;
   showLoader();
 
   getImagesByQuery(query)
