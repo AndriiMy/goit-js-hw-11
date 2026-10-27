@@ -13,7 +13,6 @@ form.addEventListener('submit', event => {
 
   const requestId = ++currentRequest;
   clearGallery();
-  hideLoader();
   if (!query) return;
 
   showLoader();
