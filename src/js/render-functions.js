@@ -32,7 +32,7 @@ export function createGallery(images) {
     </li>
   `).join('');
 
-  gallery.insertAdjacentHTML('beforeend', markup);
+  gallery.innerHTML = markup;
   lightbox.refresh();
 }
 
